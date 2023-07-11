@@ -16,7 +16,7 @@ body {
 }
 .music-container {
   border-radius: 15px;
-  background-color:white;
+  background-color: white;
   box-shadow: 0 20px 20px 0 rgb(141, 141, 236);
   padding: 20px 30px;
   margin: 100px 0;
@@ -64,12 +64,12 @@ body {
   padding: 10px;
   margin: 0 20px;
 }
-.action-btn-big{
+.action-btn-big {
   color: #cdc2d0;
   font-size: 30px;
 }
 
-.music-info{
+.music-info {
   background-color: rgb(255, 255, 255, 0.5);
   border-radius: 15px 15px 0 0;
   position: absolute;
@@ -81,21 +81,21 @@ body {
   padding: 10px 10px 10px 150px;
   transition: transform 0.3s ease-in;
 }
-.music-container.play .music-info{
+.music-container.play .music-info {
   opacity: 1;
   transform: translateY(-100%);
 }
-.progress-container{
+.progress-container {
   background: white;
   cursor: pointer;
   border-radius: 5px;
   height: 4px;
   width: 100%;
 }
-.progress{
+.progress {
   background-color: #fe8daa;
   border-radius: 5px;
+  width: 0;
   height: 100%;
-  width: 50%;
   transition: width 0.1s linear;
 }
